@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K.O Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+<body>
+
+    <!-- Navbar -->
+    <header id="navbar">
+        <div class="logo">K.O</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div id="about" class="hero-content">
+        <h1>Turning <span class="highlight">code</span> into</h1>
+        <h1 class="scale">Scalable <span class="highlight">Solutions</span></h1>
+        <p class="intro">
+            Hi, I’m Kaycee.O, a Software Engineer passionate about building fast, reliable,
+            and user-focused applications. From clean front-end interfaces to efficient
+            back-end systems, I craft solutions that solve real-world problems.
+        </p>
+        <a href="#contact" class="btn">Let’s Build Together</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card" data-modal="modal1">Hospital Management System (HPMS)</div>
+            <div class="project-card" data-modal="modal2">Contacts Manager</div>
+            <div class="project-card" data-modal="modal3">Event Website</div>
+        </div>
+    </section>
+
+    <!-- Modals -->
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Hospital Management System (HPMS)</h3>
+            <ul>
+                <li><strong>Description:</strong> A capstone-style project to manage patient records, appointments, and treatments with CSV persistence.</li>
+                <li><strong>Features:</strong> Add, update, delete, search patients; book/cancel/view appointments; view treatment history.</li>
+                <li><strong>Key Concepts:</strong> File I/O (CSV), structs with nested data, dynamic memory, modular design (main.c, manager.c, manager.h).</li>
+                <li><strong>Language: C</strong></li>
+            </ul>
+        </div>
+    </div>
+    <div class="modal" id="modal2">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Contacts Manager</h3>
+            <ul>
+                <li><strong>Description:</strong> A simple CLI program to store contacts (name, phone, email) in memory using an array of structs.</li>
+                <li><strong>Features:</strong> Add, remove, search, and list contacts.</li>
+                <li><strong>Key Concepts:</strong> Structs, arrays, string handling, menu-driven interface.</li>
+                <li><strong>Language: C</strong></li>
+            </ul>
+        </div>
+    </div>
+    <div class="modal" id="modal3">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Task Manager</h3>
+            <ul>
+                <li><strong>Description:</strong> A CLI-based to-do task manager using linked list queue for tasks and stack for undo functionality.</li>
+                <li><strong>Features:</strong> Add, view, complete, undo tasks. Extended later to include title, description, and status (pending/completed).</li>
+                <li><strong>Key Concepts:</strong> Linked lists, stacks (LIFO), queues (FIFO), dynamic struct allocation.</li>
+                <li><strong>Language: C</strong></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="marquee">
+            <div class="marquee-content">
+                <img src="assets/images/js.png" alt="JavaScript">
+                <img src="assets/images/react logo.png" alt="React">
+                <img src="assets/images/Typescript logo.png" alt="Typescript">
+                <img src="assets/images/vue logo.png" alt="Vue.js">
+                <img src="assets/images/html logo.png" alt="HTML">
+                <img src="assets/images/css logo.png" alt="CSS">
+                <img src="assets/images/wordpress logo.png" alt="WordPress">
+                <img src="assets/images/js.png" alt="JavaScript">
+                <img src="assets/images/react logo.png" alt="React">
+                <img src="assets/images/Typescript logo.png" alt="Typescript">
+                <img src="assets/images/vue logo.png" alt="Vue.js">
+                <img src="assets/images/html logo.png" alt="HTML">
+                <img src="assets/images/css logo.png" alt="CSS">
+                <img src="assets/images/wordpress logo.png" alt="WordPress">
+                <img src="assets/images/js.png" alt="JavaScript">
+                <img src="assets/images/react logo.png" alt="React">
+                <img src="assets/images/Typescript logo.png" alt="Typescript">
+                <img src="assets/images/vue logo.png" alt="Vue.js">
+                <img src="assets/images/html logo.png" alt="HTML">
+                <img src="assets/images/css logo.png" alt="CSS">
+                <img src="assets/images/wordpress logo.png" alt="WordPress">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <div class="service-cards">
+            <div class="card">Web Design</div>
+            <div class="card">E-commerce</div>
+            <div class="card">Portfolios</div>
+            <div class="card">WordPress Websites (Business, School, Events)</div>
+            <div class="card">Custom WordPress Plugin Development</div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>“Kkaycee transformed our vision into a stunning, functional website. Highly recommended!”</p>
+            <span>- Mrs Chioma</span>
+        </div>
+        <div class="testimonial">
+            <p>“Professional, creative, and reliable. Will definitely work with Kaycee again.”</p>
+            <span>- MR Felix</span>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <br>
+        <p id="successMessage" class="success"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Kaycee.O Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" onclick="scrollToTop()">↑</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
