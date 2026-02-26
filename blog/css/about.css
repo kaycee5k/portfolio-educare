@@ -1,0 +1,28 @@
+.about-wrap {
+  max-width: 560px;
+}
+
+.about-wrap h2 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.about-wrap p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #3a3028;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 2rem 0;
+}
+
+.about-info {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 2;
+}
